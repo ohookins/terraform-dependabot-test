@@ -1,0 +1,6 @@
+phases:
+  build:
+    commands:
+      - cd workspace2
+      - terraform init
+      - terraform plan -out tfplan
