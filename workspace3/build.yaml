@@ -3,9 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
-      - cd workspace2
+      - cd workspace3
       - terraform init
       - terraform plan -out tfplan
 artifacts:
   files:
-     - tfplan
+     - workspace3/tfplan

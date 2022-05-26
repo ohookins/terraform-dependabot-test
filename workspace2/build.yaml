@@ -8,4 +8,4 @@ phases:
       - terraform plan -out tfplan
 artifacts:
   files:
-     - tfplan
+     - workspace2/tfplan
